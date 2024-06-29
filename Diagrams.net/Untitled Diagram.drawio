@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2024-06-29T18:42:55.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="Sbhh_r7GDN2ZcnohcINR" type="github">
+  <diagram name="Page-1" id="2SXbTjZIPWfZh6gTUiFF">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="572" width="47" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Website" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="487" y="102" width="72" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="406" y="205" width="81" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Mobile App" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1092" y="205" width="93" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Searches for accommodation" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=-0.01;entryY=0.38;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="103" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Processes search request" style="curved=1;startArrow=none;endArrow=block;exitX=-0.01;exitY=0.67;entryX=0;entryY=0.25;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="184" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Returns search results" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=-0.01;entryX=0.48;entryY=1;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Displays search results" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.21;entryX=1;entryY=0.82;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Selects a property" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=-0.01;entryY=0.27;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="292" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Displays property details" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.36;entryX=1;entryY=0.61;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="894" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Books the property" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.14;entryY=0.01;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Processes booking" style="curved=1;startArrow=none;endArrow=block;exitX=-0.01;exitY=0.83;entryX=0.13;entryY=-0.01;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="357" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Updates database" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.34;entryX=1;entryY=0.67;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="853" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Confirms booking" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.4;entryX=1;entryY=0.57;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Sends booking notification" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.12;entryY=-0.01;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Receives notification" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=-0.01;entryX=1;entryY=0.56;" edge="1" parent="1" source="5" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1146" y="170" />
+              <mxPoint x="1146" y="68" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
